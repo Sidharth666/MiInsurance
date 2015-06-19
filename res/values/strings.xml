@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">M!Insurance</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="disclaimer"><b>Disclaimer-</b>\nPlease read through this declaration. Do recheck all details to ensure we have your accurate details. I acknowledge that OneAssist Consumer Solutions Pvt. Ltd. (hereinafter referred to as &quot;OneAssist&quot;) shall provide the benefits offered under the selected Plan(s) by itself or through its Service Partners. I consent to the use and disclosure of my Personal Information by OneAssist or any of its Service Partners for the purposes of providing the various services and/or benefits under the Plan(s). I acknowledge that the insurance features under the plan(s) are features under a group master insurance policy of OneAssist and are provided by the Insurer(s), the details of which are available at www.oneassist.in/micromax/miInsurance. I acknowledge that OneAssist reserves the right to allow the subscription to its Plan(s) at its sole discretion. I authorize the Distribution Partner / Marketing Partner to disclose any information to OneAssist for the purpose of activating the OneAssist plan(s). I acknowledge that the Terms and Conditions, as applicable, are made available at www.oneassist.in/micromax/miInsurance for my reference.</string>
+
+</resources>

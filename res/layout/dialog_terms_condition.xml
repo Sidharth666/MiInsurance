@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/box_complete" >
+    
+    <ImageView 
+        android:id="@+id/img_title"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tc_head"/>
+    
+    <WebView 
+        android:id="@+id/webView"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/img_title"
+        />
+    
+    <Button 
+        android:id="@+id/btn_back"
+        android:background="@drawable/ok_btn_selector"
+        android:layout_alignBottom="@id/webView"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+    
+    
+    <TextView 
+        android:id="@+id/tv_TermsHeader"
+        android:paddingTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Terms &amp; Conditions"
+    	android:layout_centerHorizontal="true"/>
+    
+    <!-- <ImageView 
+        android:id="@+id/img_title"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/tc_head"/>
+    
+    <TextView 
+        android:id="@+id/tv_TermsHeader"
+        android:paddingTop="2dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Terms &amp; Conditions"
+    	android:layout_centerHorizontal="true"/>
+    
+    <TextView 
+        android:id="@+id/tv_Terms"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+    	android:layout_below = "@id/img_title"/>
+    
+    <Button 
+        android:id="@+id/btn_Ok"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="@drawable/ok_btn_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        /> -->
+</RelativeLayout>

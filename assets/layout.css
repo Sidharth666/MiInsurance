@@ -1,0 +1,120 @@
+/*
+  +-----------------------------------------------------------------+ 
+  |	CSS on Sails													|
+  | Title		: 	http://www.adminpart.in							|
+  | Author		: 	IT Combine (http://www.itcombine.com)			|	
+  | Date		:	July 2013										|
+  |	Devloped By	:	Vikrant Pathak									|
+  |																	|
+  +-----------------------------------------------------------------+ 	
+	
+*/
+
+
+/***********************************  RESET CSS START HERE	***********************************/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+ul, ol {
+	list-style:none
+}
+section, article, aside, header, footer, nav, dialog, figure {
+	display:block;
+}
+
+/***********************************  RESET CSS END HERE	***********************************/
+
+
+/* Mozilla based browsers */
+::-moz-selection {
+ background-color: #1b87da;
+ color: #fff;
+}
+
+/* Works in Safari */
+::selection {
+ background-color: #1b87da;
+ color: #fff;
+}
+/*----------------------------------------------------------*/
+/*                        Globel Use                        */
+/*----------------------------------------------------------*/
+
+body {
+	font:normal 11px/17px verdana; color:#5c5c5c;
+}
+.fl {
+	float:left !important;
+}
+.fr {
+	float:right !important;
+}
+.marTopNone {
+	margin-top:0px !important;
+}
+.borderNone {
+	border:none !important;
+}
+.backgroundNone {
+	background:none !important;
+}
+.leftMarNone {
+	margin-left:0px !important;
+}
+.leftPaddNone {
+	padding-left:0px !important;
+}
+.rightPaddNone {
+	padding-right:0px !important;
+}
+.clr {
+	clear:both;
+}
+a {
+	color:#2854b1;
+	text-decoration:none;
+}
+a:hover {
+	color:#fd3304;
+	text-decoration:none;
+}
+.displayNone {
+	display:none;
+}
+.displayBlock {
+	display:block !important;
+}
+.leftPanel {
+	width:187px;
+}
+.rightPanel {
+	width:796px
+}
+.innerDiv {
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+}
+.readMmore {
+	margin:7px 0 0 0;
+	clear:both;
+}
+
+
+/*----------------------------------------------------------*/
+/*                       Body Inner Part                    */
+/*----------------------------------------------------------*/
+
+#bodyPart {	float:left;	width:100%;	clear:both; padding:15px 0;}
+
+#bodyPart h1{	float:left;	width:auto;	clear:both; font:bold 17px verdana; color:#000;}
+#bodyPart h2{	float:left;	width:auto;	clear:both; font:bold 14px verdana; color:#2e2e2e; margin:15px 0 0 0;}
+#bodyPart h3{	float:left;	width:auto;	clear:both; font:bold 12px verdana; color:#2e2e2e; margin:15px 0 0 0;}
+#bodyPart p{	float:left;	width:auto;	clear:both; margin:10px 0 0 0; text-align:justify;}
+
+
+
+
